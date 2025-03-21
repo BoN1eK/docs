@@ -1,0 +1,59 @@
+/* src/pages/index.module.css */
+
+.heroBanner {
+  position: relative;
+  width: 100%;
+  padding: 5rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #4a2977, #3a1a66);
+  color: #ffffff;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+/* Przycisk CTA */
+.callToAction {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #59359a;
+  color: #ffffff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.callToAction:hover {
+  background-color: #6a44b2;
+}
+
+/* Responsywność */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
+
